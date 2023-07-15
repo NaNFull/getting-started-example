@@ -2,9 +2,10 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "external_react",
+    "spfx"
   ],
   "devDependencies": {
-    "lerna": "^6.0.1"
+    "lerna": "^7.1.4"
   }
 }

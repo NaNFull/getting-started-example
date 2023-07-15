@@ -2,8 +2,11 @@ node_modules
 dist
 .idea
 
+package-lock.json
+yarn.lock
+
 .cache
-packages/remixapp/build
-packages/remixapp/public/build
+spfx/build
+spfx/public/build
 .env
 

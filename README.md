@@ -1,4 +1,4 @@
-# Lerna Getting Started Example
+# Lerna Sharepoint SPFX 1.4.1
 
 This repo is a small example of using Lerna 5+.
 
@@ -6,32 +6,21 @@ Watch this [10-minute walkthrough](https://youtu.be/1oxFYphTS4Y) to see how new 
 
 This repo contains three packages or projects:
 
-- `header` (a library of React components)
-- `footer` (a library of React components)
-- `remixapp` (an app written using the Remix framework which depends on both `header` and `footer`)
+- `external_react` (a library of React components)
+- `spfx` (an app written using the Spfx which depends on `external_react`)
 
 ```
-packages/
-    header/
-        src/
-            ...
-        package.json
-        rollup.config.json
-        jest.config.js
+external_react/
+    src/
+        ...
+    package.json
+    webpack.config.json
 
-    footer/
-        src/
-            ...
-        package.json
-        rollup.config.json
-        jest.config.js
-
-    remixapp/
-        app/
-            ...
-        public/
-        package.json
-        remix.config.js
-
+spfx/
+    app/
+        ...
+    public/
+    package.json
+    remix.config.js
 package.json
 ```

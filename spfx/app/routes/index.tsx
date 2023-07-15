@@ -1,5 +1,4 @@
-import {Header} from 'header';
-import {Footer} from 'footer';
+import {Header} from 'external_react';
 
 export default function Index() {
     return (
@@ -8,7 +7,6 @@ export default function Index() {
             <div>
                 Content!
             </div>
-            <Footer/>
         </>
     );
 }
